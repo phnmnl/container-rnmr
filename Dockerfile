@@ -20,13 +20,8 @@ RUN apt-get -y install apt-utils coreutils git r-base r-cran-tcltk2 subversion s
 WORKDIR /usr/src
 RUN svn checkout svn://svn.code.sf.net/p/rnmr/code/ rnmr-code
 
-# Run xvfb
-#WORKDIR /root
-#ADD xinitrc /root/.xinitrc
-#RUN chmod +x /root/.xinitrc
-#RUN echo -n > /root/.Xauthority
-#RUN dd if=/dev/urandom count=1 | sha256sum | sed -e "s/^/add $DISPLAY . /" | sed -e "s/ \-.*//" | /usr/bin/xauth -f /root/.Xauthority -q
-#RUN xinit -- /usr/bin/Xvfb $DISPLAY -screen 0 800x600x16 -dpi 75 -nolisten tcp -audit 4 -ac -auth /root/.Xauthority 1>&2 2>/dev/null
-
 # Install rNMR
 RUN /usr/bin/xvfb-run R -e "install.packages(\"/usr/src/rnmr-code/current\ release/rNMR\", repos=NULL, type=\"source\")"
+
+# Remove rNMR sources to save space
+RUN rm -rf /usr/src/rnmr-code
