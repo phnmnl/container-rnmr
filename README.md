@@ -23,13 +23,9 @@ For screenshots, you should use the following scheme:
 ![screenshot](screenshots/s2.gif)
 
 -->
-<div id="logo">
 ![Logo](rNMR_logo.gif)
-</div>
 
-<div id="title">
 # rNMR
-</div>
 Version: 1.0
 
 ## Short description
