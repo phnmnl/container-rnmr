@@ -34,7 +34,7 @@ Version: 1.0
 This should only be 20 to 40 words, hopefully a single sentence.
 -->
 
-rNMR: open source software for identifying and quantifying metabolites in NMR spectra.
+open source software for identifying and quantifying metabolites in NMR spectra.
 
 ## Description
 
