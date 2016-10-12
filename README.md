@@ -10,9 +10,17 @@ Fields: for the App Library, the following fields will be parsed
 ## Key features
 ## Publications
 ## Screenshots
-## Provider
+## Tool Authors 
+- Author 1 and affiliation
+- [Author 2](link_to_author_2) and affiliation
+## Container Contributors
+- Contributor 1
+- [Contributor 2](link_to_contributior_2) and affiliation
 ## Website
 ## Usage Instructions
+
+Free text with triple tick code blocks, comprising docker, ipython and galaxy usage
+
 ## Installation 
 
 They all have to be at the second hashtag level
@@ -61,9 +69,14 @@ Use AMA style publications as a list (you can export AMA from PubMed, on the For
 Screen shots obtained from the original rNMR page.
 ![screenshot](screenshots/s1.jpg)
 
-## Provider
+## Tool Authors
 
-Ian A. Lewis (University of Calgary) & Seth C. Schommer (Wisconsin-Madison University & Sunquest Information Systems)
+- Ian A. Lewis (University of Calgary)
+- Seth C. Schommer (Wisconsin-Madison University & Sunquest Information Systems)
+
+## Container Contributors
+
+- [Kristian Peters](https://github.com/korseby) (IPB Halle)
 
 ## Website
 
