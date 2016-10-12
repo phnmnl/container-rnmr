@@ -80,22 +80,20 @@ Screen shots obtained from the original rNMR page.
 
 - http://rnmr.nmrfam.wisc.edu/
 
-## Usage Instructions
-
-For direct docker usage:
-
-```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/rnmr ...
-```
-
-For Galaxy usage within a PhenoMeNal VRE:
-
 ## Installation 
 
 For local individual installation:
 
 ```bash
 docker pull docker-registry.phenomenal-h2020.eu/phnmnl/rnmr
+```
+
+## Usage Instructions
+
+For direct docker usage:
+
+```bash
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/rnmr ...
 ```
 
 ## Publications
