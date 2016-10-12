@@ -76,7 +76,7 @@ Screen shots obtained from the original rNMR page.
 ## Tool Authors
 
 - Ian A. Lewis (University of Calgary)
-- Seth C. Schommer (Wisconsin-Madison University & Sunquest Information Systems)
+- Seth C. Schommer (Wisconsin-Madison University and Sunquest Information Systems)
 
 ## Container Contributors
 
