@@ -59,7 +59,7 @@ Use AMA style publications as a list (you can export AMA from PubMed, on the For
 ## Screenshots
 
 Screen shots obtained from the original rNMR page.
-![screenshot](screenshots/s1.gif)
+![screenshot](screenshots/s1.jpg)
 
 ## Provider
 
