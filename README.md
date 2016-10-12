@@ -56,7 +56,7 @@ The most powerful features of rNMR are built around the region of interest (ROI)
 
 - NMR Processing
 
-## Technology
+## Metabolomics Technologies
 
 - NMR
 
