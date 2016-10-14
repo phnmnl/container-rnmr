@@ -1,10 +1,12 @@
 <!-- Guidance:
 Logo: The logo needs have the text "Logo" inside the square bracket place holder to be recognized at the App Library.
-Tool name: First single hashtag will be taken as tool name.
+Tool name: First single hashtag (#) will be taken as tool name.
 Version: Should always go after the first hastag and before the second hastag. The line needs to respond to the regexp "^Version: (.+)" being the first group the actual version.
 
-Fields: for the App Library, the following fields will be parsed
+Fields: for the App Library, the following fields will be parsed:
 
+# Name of the tool
+Version: z.x-whatever
 ## Short description
 ## Description
 ## Key features
