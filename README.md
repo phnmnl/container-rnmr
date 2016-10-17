@@ -84,6 +84,11 @@ Screen shots obtained from the original rNMR page.
 
 - http://rnmr.nmrfam.wisc.edu/
 
+
+## Git Repository
+
+- https://github.com/phnmnl/container-rnmr.git
+
 ## Installation 
 
 For local individual installation:
