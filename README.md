@@ -36,7 +36,7 @@ For screenshots, you should use the following scheme:
 ![Logo](rNMR_logo.gif)
 
 # rNMR
-Version: 1.0
+Version: 1.0.0
 
 ## Short description
 
