@@ -116,6 +116,7 @@ docker run docker-registry.phenomenal-h2020.eu/phnmnl/rnmr ...
 
 <!-- Guidance:
 Use AMA style publications as a list (you can export AMA from PubMed, on the Formats: Citation link when looking at the entry).
+IMPORTANT: Publications sectio must be placed at the end and cannot be emptied!
 -->
 
 - Lewis IA, Schommer SC, Markley JL. rNMR: open source software for identifying and quantifying metabolites in NMR spectra. Magnetic Resonance in Chemistry . 2009;47(S1):S123-S126. doi:10.1002/mrc.2526.
