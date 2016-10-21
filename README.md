@@ -62,10 +62,20 @@ The most powerful features of rNMR are built around the region of interest (ROI)
 
 - Annotation
   - NMR
+- Post-processing
 
-## Data Analysis
+## Approaches
 
-- Annotation
+- Metabolomics
+  - Targeted
+  
+## Instrument Data Types
+
+- NMR
+  - 1D NMR
+  - 2D NMR
+    - 2D TOCSY
+  - 1H NMR
 
 ## Screenshots
 
