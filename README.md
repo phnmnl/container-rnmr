@@ -4,7 +4,7 @@
 # rNMR
 Version: 1.0.0
 
-## Short description
+## Short Description
 
 <!-- 
 This should only be 20 to 40 words, hopefully a single sentence.
