@@ -6,10 +6,6 @@ Version: 1.0.0
 
 ## Short Description
 
-<!-- 
-This should only be 20 to 40 words, hopefully a single sentence.
--->
-
 Open source software for identifying and quantifying metabolites in NMR spectra.
 
 ## Description
