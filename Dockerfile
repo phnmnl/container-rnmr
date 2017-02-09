@@ -1,8 +1,11 @@
-FROM ubuntu:16.04
+LABEL software=rnmr
+LABEL software.version=1.0.0
+LABEL version=0.1
+LABEL Description="rNMR: open source software for identifying and quantifying metabolites in NMR spectra."
 
 MAINTAINER PhenoMeNal-H2020 Project <phenomenal-h2020-users@googlegroups.com>
 
-LABEL Description="rNMR: open source software for identifying and quantifying metabolites in NMR spectra."
+FROM ubuntu:16.04
 
 # Environment variables needed for installing with xvfb
 ENV DEBIAN_FRONTEND=noninteractive
