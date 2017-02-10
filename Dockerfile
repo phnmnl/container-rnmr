@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 LABEL software=rnmr
-LABEL software.version=1.0.0
+LABEL software.version=1.1.9
 LABEL version=0.1
 
 LABEL Description="rNMR: open source software for identifying and quantifying metabolites in NMR spectra."
