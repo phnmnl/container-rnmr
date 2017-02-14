@@ -1,2 +1,1 @@
 test -d /usr/local/lib/R/site-library/rNMR
-/usr/bin/xvfb-run R -e "library(rNMR)"
