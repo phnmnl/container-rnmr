@@ -9,6 +9,7 @@ LABEL Description="rNMR: open source software for identifying and quantifying me
 MAINTAINER PhenoMeNal-H2020 Project <phenomenal-h2020-users@googlegroups.com>
 
 
+
 # Environment variables needed for installing with xvfb
 ENV DEBIAN_FRONTEND=noninteractive
 ENV DISPLAY=":1"
@@ -20,6 +21,9 @@ ENV LD_LIBRARY_PATH="/usr/lib64:/usr/lib:/usr/local/lib64:/usr/local/lib"
 RUN echo "no"
 RUN apt-get -y update
 RUN apt-get -y install apt-utils coreutils git r-base r-cran-tcltk2 subversion subversion-tools wget xfonts-75dpi xfonts-100dpi xfstt xinit xterm xvfb
+
+# Clean-up
+RUN apt-get -y clean && apt-get -y autoremove && rm -rf /var/lib/{cache,log}/ /tmp/* /var/tmp/*
 
 # Fetch rNMR
 WORKDIR /usr/src
